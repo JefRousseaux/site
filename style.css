@@ -2,7 +2,8 @@
 {
 position: absolute;
 left: 300px;
-top: 0px;				
+top: 150px;	
+border:2px black dotted;			
 }
 .tabnav
 {
@@ -60,13 +61,9 @@ li
 .imageentete
 {	
 position: fixed;
-top: 0px;	
+top: -10px;	
 }
 
-.faussebalise
-{
-opacity:0;
-}
 .index
 {
 text-decoration: none;	
@@ -77,3 +74,25 @@ color: white;
 {
 color: maroon;				
 }
+
+h1
+{
+text-align:center;
+}
+.gauche
+{
+position: absolute;
+	left:329px;			
+}
+.tgauche
+{
+position: absolute;
+	left:659px;			
+}
+.ttgauche
+{
+position: absolute;
+	left:989px;			
+}
+
+
