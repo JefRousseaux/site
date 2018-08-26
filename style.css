@@ -59,7 +59,8 @@ li
 	text-align:left;
 }
 .imageentete
-{	
+{
+
 position: fixed;
 top: -10px;	
 }
@@ -85,6 +86,7 @@ text-decoration:	underline;
 h2
 {
 text-align:center;
+text-decoration:	underline;
 }
 
 .gauche
@@ -104,12 +106,14 @@ position: absolute;
 }
 .gauch
 {
+
 position: absolute;
-	left:-11px;					
+	left:-11px;	
+	
 }
 .invisible
 {
-				opacity:0;
+	opacity:0;
 }
 .wwwc
 {
@@ -127,7 +131,13 @@ position: absolute;
 }
 body
 {
-				background-color:white;
+background-attachment:fixed;
+background-image:url("https://www.publicdomainpictures.net/pictures/130000/velka/green-top-gradient-background.jpg");
+background-repeat:no-repeat;
+
+
+
+				
 }
 
 a.viewpic {
@@ -145,13 +155,28 @@ a:hover.viewpic span{
   display: inline; 
   position: absolute;  
   top: -20px; 
-  left: 10px; 
+  left: -50px; 
   z-index: 20; 
   width:100%; 
   padding:2px 4px;
 }
 
+p
+{
+font-family:Trebuchet MS, Times New Roman, sans-serif;
+text-align: justify;				
+}
 
+footer
+{
+	 position: absolute;  
+	 top:2175px;
+	 left:300px;			
+}
+.footer
+{
+				background-color:	#999999;
+				border-radius: 10px; 
 
-
+}
 
